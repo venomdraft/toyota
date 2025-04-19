@@ -7,15 +7,16 @@
   <title>Toyota</title>
   <link rel="stylesheet" href="css/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/splide.min.css">
 </head>
 
 <body>
   <!-- navbar -->
   <nav class="navbar bg-body-tertiary fixed-top">
     <div class="container-fluid">
-      <div>
-        <img src="img/01.jpeg" class="w-25">
+      <div class="">
+        <img src="img/01.jpeg" class="w-25 ">
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -59,23 +60,74 @@
   </nav>
 
   <!-- section 1 -->
-  <div class="container-xl mt-5 pt-5">
-   <div class="row justify-content-center align-items-center text-center">
-    <div class="col-12">
-      <div class="img-fluid">
-        <img src="img/02.jpeg" alt="">
+  <div class="container-xl my-5 pt-5">
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col-12">
+        <div>
+          <img src="img/02.jpeg" alt="" class="img-fluid">
+        </div>  
+      </div>
+
+      <div class="col-7 mb-lg-5 mb-0">
+        <div class="h1 fw-bold">Toyota Concept-I Series</div>
+        <div class="p fst-italic">Toyota Concept-i and its forwards UX hold a mirror up to a future that is warn,
+          friendly, engaging and, most of all-fun. Without future ado, meet Concept-i.</div>
       </div>
     </div>
-   
-    <div class="col-7">
-      <div class="h1 fw-bold">Toyota Concept-I Series</div>
-      <div class="p fst-italic">Toyota Concept-i and its forwards UX hold a mirror up to a future that is warn, friendly, engaging and, most  of all-fun. Without future ado, meet Concept-i.</div> 
-    </div> 
-   </div>
   </div>
 
+  <!-- section 2 -->
+  <div class="container-xl mt-lg-5 mt-0">
+    <div class="row">
+      <div class="col-lg-8 col-12">
+        <img src="img/0301.jpeg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="text-overlay">
+          <div class="h2 fw-bold px-0 gy-3 pb-3">The Future has arrived.</div>
+          <div class=" pl-3 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit alias
+            quibusdam delectus excepturi. Explicabo enim, earum similique nulla dicta vitae sequi repellendus officiis
+            corporis minima quod modi iusto. Maiores ipsam alias molestias voluptate quis nostrum consequatur
+            reprehenderit, quisquam eveniet delectus consectetur culpa labore laborum.</div>
+        </div>
+        <div class=" mt-4 btn btn-danger">LEARN MORE</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section 3 -->
+  <div class="container-xl pt-4 pt-lg-5 pb-lg-5 pb-3">
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <div class="text-overlay">
+          <div class="h2 fw-bold gy-3 pb-0">Less of machine.</div>
+          <div class="h2 fw-bold px-0 gy-3 pb-3">More of a pal.</div>
+          <div class=" pl-3 fst-italic ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit alias
+            quibusdam delectus excepturi. Explicabo enim, earum similique nulla dicta vitae sequi repellendus officiis
+            corporis minima quod modi iusto. Maiores ipsam alias molestias voluptate quis nostrum consequatur
+            reprehenderit, quisquam eveniet delectus consectetur culpa labore laborum.</div>
+        </div>
+        <div class=" mt-4 btn btn-dark">LEARN MORE</div>
+      </div>
+      <div class="col-12 col-lg-8 pt-lg-5 pt-3">
+        <img src="img/04.jpeg" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/splide.min.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1350,
+      once: true,
+    });
+  </script>
+  
 </body>
 
 </html>
