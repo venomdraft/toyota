@@ -121,56 +121,90 @@
         <div class="col-3 p-0">
           <img src="img/0501.jpeg" alt="" class="w-100 h-100">
         </div>
-  
+
         <div class="col-3 p-0">
           <img src="img/0502.jpeg" alt="" class="w-100 h-100">
         </div>
-  
+
         <div class="col-3 p-0">
           <img src="img/0503.jpeg" alt="" class="w-100 h-100">
         </div>
-  
+
         <div class="col-3 p-0">
           <img src="img/0504.jpeg" alt="" class="w-100 h-100">
         </div>
-  
+
         <div class="col-3 p-0">
           <img src="img/0505.jpeg" alt="" class="w-100 h-100">
         </div>
-  
+
         <div class="col-3 p-0">
           <img src="img/0506.jpeg" alt="" class="w-100 h-100">
         </div>
-  
+
         <div class="col-3 p-0">
           <img src="img/0507.jpeg" alt="" class="w-100 h-100">
         </div>
-  
+
         <div class="col-3 p-0">
           <img src="img/0508.jpeg" alt="" class="w-100 h-100">
         </div>
       </div>
     </div>
-    </div>
+  </div>
   </div>
 
   <!-- slider -->
-   <!-- <div class="d-block d-md-none">
+  <div class="d-block d-lg-none">
     <div class="container-xl">
       <div class="splide" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
-            <div class="col-12 p-0">
-              <img src="img/0508.jpeg" alt="" class="w-100 h-100">
-            </div>
-            <div class="col-12 p-0">
-              <img src="img/0507.jpeg" alt="" class="w-100 h-100">
-            </div>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0501.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0502.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0503.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0504.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0505.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0506.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0507.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="col-12 p-0 text-center">
+                <img src="img/0508.jpeg" alt="" class="w-100 h-100">
+              </div>
+            </li>
           </ul>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- section 5 -->
   <div class="bg-dark">
@@ -209,6 +243,13 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/splide.min.js"></script>
+  <script>
+    var slide = new Splide( '.splide', {
+      type: "loop",
+      autplay: true,
+    });
+    slide.mount();
+  </script>
   <script>
     AOS.init({
       once: true,
