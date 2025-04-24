@@ -80,7 +80,7 @@
   <div class="container-xl mt-lg-5 mt-0">
     <div class="row">
       <div class="col-lg-8 col-12">
-        <img src="img/0301.jpeg" alt="" class="img-fluid">
+        <img src="img/0301.jpeg" alt="" class="img-fluid" data-aos="fade-right">
       </div>
       <div class="col-lg-4 col-12">
         <div class="text-overlay">
@@ -110,7 +110,7 @@
         <div class=" mt-4 btn btn-dark">LEARN MORE</div>
       </div>
       <div class="col-12 col-lg-8 pt-lg-5 pt-3">
-        <img src="img/04.jpeg" alt="" class="img-fluid">
+        <img src="img/04.jpeg" alt="" class="img-fluid" data-aos="fade-left">
       </div>
     </div>
   </div>
@@ -212,7 +212,7 @@
       <div class="row">
         <div class="col-12 11-3">
           <div class="text-center pb-4  pb-lg-2">
-            <img src="img/06.png" alt="" class="w-25 h-25">
+            <img src="img/06.png" alt="" class="w-25 h-25" data-aos="fade-down">
           </div>
         </div>
         <div class="col-4 text-white">
@@ -244,13 +244,15 @@
   <script src="js/aos.js"></script>
   <script src="js/splide.min.js"></script>
   <script>
-    var slide = new Splide( '.splide', {
+    var slide = new Splide('.splide', {
       type: "loop",
       autplay: true,
-      interval: 3000,
+      interval: 150,
       pauseOnHover: false,
+      pauseOnFocus: false,
       arrows: false,
       pagination: false,
+
     });
     slide.mount();
   </script>
